@@ -1,0 +1,135 @@
+body {
+    background-color: black ;
+    font-family: 'Libre Baskerville';
+    color: white ;
+    font-size: 25px;
+    text-align: center;
+    height: auto;
+}
+#body1{
+    height: 300vh;
+}
+.display{
+    display: flex;
+}
+
+/* text */
+h3,h2,.facts{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+h2{
+    text-align: left;
+    padding: 20px;
+}
+.heading{
+    background-color: white;
+    color: black;
+    opacity: 100%;
+    border: 3px dashed black;
+}
+p{
+    text-align: left;
+    padding: 20px;
+    max-inline-size: 60%;
+}
+
+/* lists */
+#list-right{
+   margin-left: auto;
+}
+.list-group-item:hover{
+    color: fuchsia;
+    background-color:#363939;
+}
+.list-group-item{
+    background-color: black;
+    color: white;
+}
+.list-group{
+    margin: 40px;
+    width: 50%;
+    opacity: 90%;
+    padding: 8px;
+    border: 2px solid white;
+}
+
+/*icons */
+.fa-arrow-left-long{
+    position: fixed;
+    opacity: 85%;
+    top: 10px;
+    right: 10px;
+    font-size: 50px;
+}
+.icon{
+    margin: 200px;
+    right: 50px;
+    font-size: 150px;
+}
+.star{
+    font-size:150px;
+    margin-top: 100px;
+}
+.goback{
+    position: fixed;
+    font-size:3rem;
+    opacity: 70%;
+    right: 10px;
+    height:10%;
+    width: 10%;
+    margin-left: 20px;
+}
+.note{
+    font-family: 'Libre Baskerville';
+    padding: 5px;
+    font-size: 1rem;
+    position: relative;
+    bottom: 20px;
+}
+.note1{
+    position:relative;
+    bottom: 60px;
+}
+
+/* links */
+a:hover{
+    color: fuchsia;
+}
+a{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: lightpink;
+    text-underline-position: under;
+    text-decoration-color: fuchsia;
+    text-decoration-style: dashed;
+}
+
+/* carousel with pictures */
+.carousel{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* navbar */
+.nav-link.active{
+    color:white;
+}
+.nav-link:visited{
+    color: white;
+}
+.nav{
+    margin-top: 2px;
+    margin-bottom: 50px;
+    border: black;
+}
+.nav-link{
+    font-family: 'Libre Baskerville';
+    color: lightgrey;
+}
+.nav-link:hover{
+    color: fuchsia;
+    border: 2px;
+    border-style:dashed;
+}
